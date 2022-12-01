@@ -13,7 +13,7 @@ public class PostResponseDto {
     private String username;
     private String contents;
     private LocalDateTime createdAt;
-    private LocalDateTime modifiedAt;
+    private LocalDateTime modifiedAt; // 스펠 틀릴 것 같으면 생성자 단축키로 만들 것
 
     public PostResponseDto(Post entity) {
         this.id = entity.getId();

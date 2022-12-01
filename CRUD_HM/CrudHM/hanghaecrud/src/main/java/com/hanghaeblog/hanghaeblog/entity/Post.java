@@ -25,7 +25,7 @@ public class Post extends Timestamped{
     private String contents;
 
     @Column(nullable = false)
-    private String password;
+    private String password; // 스펠 틀릴 것 같으면 생성자 단축키로 만들 것
 
     public Post(PostRequestDto requestDto) {
         this.title = requestDto.getTitle();
